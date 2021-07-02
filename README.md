@@ -45,7 +45,7 @@ initEnv({Debug: true });
 ```
 ##### encoding
 Default: `utf8`
-You may specify the encoding of your file containing environment variables.
+You may specify the encoding of your file containing environment variables.  
 
 ```
 initEnv({encoding: `utf8` });
