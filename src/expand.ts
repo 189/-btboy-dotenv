@@ -43,12 +43,10 @@ export default function expand(config: DotenvConfigOutput): DotenvConfigOutput {
       config.parsed[configKey] = interpolate(value || "");
     }
   }
-
   for (let processKey in config.parsed) {
     if (config.parsed.hasOwnProperty(processKey)) {
       environment[processKey] = config.parsed[processKey];
     }
   }
-
   return config;
 }
