@@ -67,11 +67,9 @@
       "/test/"
     ],
     "coverageThreshold": {
-      "global": {
-        "branches": 90,
-        "functions": 95,
-        "lines": 95,
-        "statements": 95
+      "src/dotenv.ts": {
+        "branches": 50,
+        "functions": 100
       }
     },
     "collectCoverageFrom": [
