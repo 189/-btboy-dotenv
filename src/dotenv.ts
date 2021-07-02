@@ -11,7 +11,7 @@ export default function init(options?: Option): DotenvConfigOutput {
   const dotenv = path.join(cwd, ".env");
   const dotenvFiles = [
     `${dotenv}.${NODE_ENV}.local`,
-    NODE_ENV !== "test" && `${dotenv}.local`,
+    `${dotenv}.local`,
     `${dotenv}.${NODE_ENV}`,
     dotenv
   ].filter(Boolean);
