@@ -1,7 +1,7 @@
 
 
 
-The package is a zero-dependency module that loads environment variables from files whose name start with `.env`， Such as:
+The package is a zero-dependency module that loads environment variables from files whose name start with `.env`:
 
 - `.env.[process.env.NODE_ENV].local`
 - `.env.local`

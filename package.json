@@ -1,7 +1,7 @@
 {
   "name": "@btboy/dotenv",
   "version": "1.0.1",
-  "description": "",
+  "description": "Loads environment variables from files whose name start with .env",
   "keywords": [],
   "main": "dist/dotenv.umd.js",
   "module": "dist/dotenv.es5.js",
