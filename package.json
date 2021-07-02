@@ -116,6 +116,8 @@
     "typescript": "^4.3.2"
   },
   "dependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "@btboy/eslint-config": "^1.0.11",
     "@types/prompt": "^1.1.0",
     "@types/shelljs": "^0.8.8",
