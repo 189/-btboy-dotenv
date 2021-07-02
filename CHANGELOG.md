@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/189/btboy-dotenv/compare/v1.0.0...v1.0.1) (2021-07-02)
+
+
+### Bug Fixes
+
+* re-triggger build ([f0a609c](https://github.com/189/btboy-dotenv/commit/f0a609cfbc397e31297bfec3bf162832c683a3bb))
+
 # 1.0.0 (2021-07-02)
 
 
