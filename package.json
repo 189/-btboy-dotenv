@@ -1,6 +1,6 @@
 {
   "name": "@btboy/dotenv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Loads environment variables from files whose name start with .env",
   "keywords": [
     "dotenv",
@@ -67,11 +67,9 @@
       "/test/"
     ],
     "coverageThreshold": {
-      "global": {
-        "branches": 90,
-        "functions": 95,
-        "lines": 95,
-        "statements": 95
+      "src/dotenv.ts": {
+        "branches": 50,
+        "functions": 100
       }
     },
     "collectCoverageFrom": [
